@@ -1,7 +1,19 @@
 #!/bin/bash
 
+# Disable various shellcheck rules that produce false positives in this file.
+# Repository rules should be added to the .shellcheckrc file located in the
+# repository root directory, see https://github.com/koalaman/shellcheck/wiki
+# and https://archiv8.github.io for further information.
+# shellcheck disable=SC2034,SC2154
+# ToDo: Add files: User documentation
+# ToDo: Add files: Tooling
+# FixMe: Namcap warnings and errors
+
 # Maintainer: Lex Black <autumn-wind at web dot de>
 # Contributor: Daniel Larsson <znixen@live.se>
+# Contributor: Ross Clark <archiv8@artisteducator.com>
+
+
 
 pkgbase=patool
 pkgname="patool"
