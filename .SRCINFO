@@ -1,15 +1,15 @@
 pkgbase = patool
-	pkgdesc = portable command line archive file manager
+	pkgdesc = Portable command line archive file manager
 	pkgver = 1.12
-	pkgrel = 5
+	pkgrel = 6
 	url = https://wummel.github.io/patool/
 	arch = any
 	license = GPL
 	makedepends = python-setuptools
 	depends = python
+	optdepends = p7zip: extracting ZIP and 7z files
 	optdepends = tar: extracting TAR files
 	optdepends = unrar: extracting RAR files
-	optdepends = p7zip: extracting ZIP and 7z files
 	source = patool-1.12.tar.gz::https://github.com/wummel/patool/archive/upstream/1.12.tar.gz
 	sha256sums = 582fd4b87c263325958c1550400504799018c88bc3444f249bba304ae1747f1f
 
